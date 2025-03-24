@@ -1,5 +1,5 @@
 TARGET = test
-SRCS = anothercase.cpp 
+SRCS = myfirst5.cpp 
 OBJS = $(SRCS:.cpp=.o)
 CC=g++
 CFLAGS = -Wall -std=C++99 -prhread -w

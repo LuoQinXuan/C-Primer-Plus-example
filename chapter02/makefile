@@ -1,5 +1,5 @@
 TARGET = test
-SRCS = myfirst5.cpp 
+SRCS = ourfunc1.cpp 
 OBJS = $(SRCS:.cpp=.o)
 CC=g++
 CFLAGS = -Wall -std=C++99 -prhread -w

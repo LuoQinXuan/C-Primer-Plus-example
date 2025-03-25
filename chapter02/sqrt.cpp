@@ -1,7 +1,7 @@
 // sqrt.cpp -- using the sqrt() function
 
 #include<iostream>
-#include<cmath>		// or math.h
+#include<cmath>	// or math.h
 
 int main()
 {
@@ -12,7 +12,8 @@ int main()
 	cin >> area;
 	double side;
 	side = sqrt(area);
-	cout << "That's the equivalent of a square " << side << " feet to the side." << endl;
+	cout << "That's the equivalent of a square " << side
+		 << " feet to the side." << endl;
 	cout << "How fascinating!" << endl;
 	return 0;
 }

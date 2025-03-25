@@ -1,4 +1,4 @@
-// getinfo.cpp -- input and output
+// getinfo3.cpp -- Just specific four line
 #include<iostream>
 
 int main()
@@ -12,6 +12,9 @@ int main()
 	cout << "Here are two more. ";
 	carrots = carrots + 2;
 // the next line concatenates output
-	cout << "Now you have " << carrots << " carrots." << endl;
+	cout << "Now you have "
+		 << carrots 
+		 << " carrots."
+		 << endl;
 	return 0;
 }
